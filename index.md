@@ -15,7 +15,7 @@ startdate: 2021-06-15
 enddate: 2021-06-18
 instructor: ["Esther Jackson", "Walker Sampson", "Frances Wong", "Hao Ye"]
 helper: ["Megan Ball", "Jess Newman"]
-email: ["first@example.org","second@example.org"]
+email: ["rfought1@uthsc.edu"]
 collaborative_notes: "https://pad.carpentries.org/2021-06-15-uthsc"
 eventbrite: "156777314167"
 ---
@@ -346,20 +346,9 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
+{% include custom-schedule.html %}
+
 {% include lc/schedule.html %}
-{% elsif site.carpentry == "pilot" %}
-The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. If you would like to know the timing of these breaks in advance, please [contact the workshop organisers](#contact). For a list of lesson sections and estimated timings, [visit the lesson homepage]({{ site.lesson_site }}).
-{% comment %}
-Edit/replace the text above if you want to include a schedule table.
-See the contents of the _includes/custom_schedule.html file for an example of
-how one of these schedule tables is constructed.
-{% endcomment %}
-{% endif %}
 
 <hr/>
 
