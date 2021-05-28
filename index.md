@@ -14,7 +14,7 @@ humantime: "1:00 pm - 5:00 pm CT"
 startdate: 2021-06-15
 enddate: 2021-06-18
 instructor: ["Esther Jackson", "Walker Sampson", "Frances Wong", "Hao Ye"]
-helper: ["Megan Ball", "Jess Newman"]
+helper: ["Megan Bell", "Jess Newman"]
 email: ["rfought1@uthsc.edu"]
 collaborative_notes: "https://pad.carpentries.org/2021-06-15-uthsc"
 eventbrite: "156777314167"
