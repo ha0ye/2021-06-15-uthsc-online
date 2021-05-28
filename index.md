@@ -3,8 +3,8 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "FIXME"
-address: "(virtual; TBD)"
+venue: "Southern Chapter, Medical Library Association"
+address: "online"
 country: "US"
 language: "en"
 latitude: "0"
@@ -14,7 +14,7 @@ humantime: "1:00 pm - 5:00 pm CT"
 startdate: 2021-06-15
 enddate: 2021-06-18
 instructor: ["Esther Jackson", "Walker Sampson", "Frances Wong", "Hao Ye"]
-helper: ["helper one", "helper two"]
+helper: ["Megan Ball", "Jess Newman"]
 email: ["first@example.org","second@example.org"]
 collaborative_notes: "https://pad.carpentries.org/2021-06-15-uthsc"
 eventbrite: "156777314167"
@@ -127,10 +127,6 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
