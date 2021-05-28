@@ -348,8 +348,6 @@ of code below the Schedule `<h2>` header below with
 
 {% include custom-schedule.html %}
 
-{% include lc/schedule.html %}
-
 <hr/>
 
 
